@@ -1,5 +1,7 @@
+'''
 Create a simple login authentication system using a programming language of your choice (e.g., Python, JavaScript, 
 Java, etc.) that allows users to register, login, and access a secured page.
+'''
 
 from flask import Flask, render_template, request, redirect, url_for, session, flash
 from werkzeug.security import generate_password_hash, check_password_hash
