@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    background-color: #000000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.text-light {
+    color:  #d0cdd5 ;
+}
+
+.text-white {
+    color:  #ffffff ;
+}
+
+.text-dark {
+    color: #000000;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.f-size-l {
+    font-size: 40px;
+}
+
+.f-size-m {
+    font-size: 23px;
+}
+
+.bg-trans {
+    background: transparent;
+}
+
+.tribute-container {
+    width: 60vw;
+    height: auto;
+    margin: auto;
+}
+
+.yt-l-ico {
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.banner-container {
+    margin: 20px 0;
+    width: 100%;
+    height: 580px;
+    background-image: url('images/Lata-mangeshkar.png');
+    background-size: cover;
+    position: relative;
+    border-radius: 10px;
+}
+
+.yt-l-container {
+    border-radius: 10px;
+    background-color: rgba(36, 35, 34, 0.5);
+    height: 150px;
+    width: 200px;
+    position: absolute;
+    text-align: center;
+}
+
+.yt-l-container:hover {
+    border: 1px solid gray;
+    background-color: rgba(161, 152, 142, 0.5);
+}
+
+.about-container {
+    margin: auto;
+    width: 40vw;
+}
+
+.about-container p {
+    padding: 20px;
+}
